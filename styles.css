@@ -38,8 +38,7 @@ body {
 }
 
 .container {
-  width: 50%;
-  height: 50%;
+  width: 60%;
   margin: 2rem auto; 
 }
 
@@ -52,6 +51,7 @@ body {
 
 .gallery__img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block; 
 }
