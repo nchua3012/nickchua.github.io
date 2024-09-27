@@ -7,13 +7,20 @@ body {
   
   }
 
-  .navigation {
-    text-align: left;  
-    font-family: 'Arial', sans-serif;
-    
-  
-  }
-  
+/* The sidebar menu */
+.sidenav {
+  height: 100%; 
+  width: 200px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 20px;
+  overflow-x: hidden; 
+  padding-top: 20px;
+  padding-right: 20px;
+  font-family: 'Arial', sans-serif;
+}
+/* Link text hover colors */
 a:link {
   color:darkolivegreen;
   background-color: transparent;
@@ -26,13 +33,25 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Heading text */
   h1 {
     font-size: 30px;
     font-family: 'Arial', sans-serif;;
     font-weight: bold;
-    text-align: left
+    text-align: left;
+    color: #333;
     
   }
+
+  /* Page content */
+.body {
+  font-family: 'Arial', sans-serif;
+  font-size: 10px;
+  color: #333;
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  }
+
 
   *,
 *::after,
@@ -47,16 +66,9 @@ html {
   font-size: 62.5%; 
 }
 
-body {
-  font-family: 'Arial', sans-serif;
-  color: #333;
-  font-weight: 300;
-  line-height: 1.6; 
-}
-
 .container {
   width: 60%;
-  margin: 2rem auto; 
+  margin-left: 200px;
 }
 
 .gallery {
