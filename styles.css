@@ -192,3 +192,10 @@ img:hover {
   /* grid-column: 5 / span 4; */
   /* grid-row: 6 / span 3; */
 }
+
+
+.vid-container {
+  margin-left: 20%;
+  padding-top: 20px;
+  justify-content: center;
+}
