@@ -2,19 +2,19 @@
 body {
     padding: 20px 20px 20px 20px;
     background-color: #FAF8F5;  
-    text-align: left;  
+    text-align: cen;  
     font-family: 'Helvetica', sans-serif;
   
   }
 
-/* The sidebar menu */
+/* Sidebar menu */
 .sidenav {
   height: 100%; 
   width: auto; 
   position: fixed; 
   z-index: 1; 
   top: 0; 
-  left: 20px;
+  left: 10px;
   overflow-x: hidden; 
   padding-top: 20px;
   padding-right: 20px;
@@ -44,12 +44,22 @@ a:hover {
     
   }
 
+  h2 {
+    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;;
+    font-weight: bold;
+    text-align: left;
+    color: #4b4945;
+    padding-top: 20px;
+    
+  }
+
   /* Page content */
 .body {
   font-family: 'Helvetica', sans-serif;
   font-size: 10px;
   color: #333;
-  margin-left: 20%;
+  margin-left: 10%;
   padding: 0px;
   }
 
@@ -65,7 +75,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 20%;
+    margin-left: 10%;
   
   }
 
@@ -84,7 +94,9 @@ html {
 
 .container {
   width: 60%;
-  margin-left: 200px;
+  margin-left: 10%;
+  padding-top: 20px;
+  justify-content: center;
 }
 
 .gallery {
